@@ -9,7 +9,7 @@ const Detect = ({ onInputChange, onButtonClick }) => {
 				<div className=' pa2 center'>
 					<input 	className=' w-70 center z-1'
 							type='text'  
-							placeholder='insert image URL here'
+							placeholder='insert image URL(jpg) here'
 							onChange={onInputChange}
 					/>
 					<button	className='w-30 link button grow pv white bg-black'
