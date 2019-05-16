@@ -16,7 +16,7 @@ import Rank from './comp/Rank/Rank.js'
 const particlesOptions = {
   particles: {
     number: {
-      value: 100,
+      value: 55,
       density:{
         enable: true,
         value_area: 700
