@@ -34,8 +34,6 @@ class SignIn extends React.Component {
 				this.props.onRouteChange('home');
 			}
 		})
-		
-	
 	}
 
 	render() {
@@ -90,7 +88,6 @@ class SignIn extends React.Component {
 				</article>
 			</div>
 		)
-		
 	};
 }
 

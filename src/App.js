@@ -5,11 +5,10 @@ import Particles from 'react-particles-js';
 import Logo from './comp/Logo/Logo.js';
 import SignOut from './comp/SignOut/SignOut.js';
 import Detect from './comp/Detect/Detect.js';
-
 import Face from './comp/Face/Face.js';
 import SignIn from './comp/SignIn/SignIn.js';
 import Register from './comp/Register/Register.js';
-import Rank from './comp/Rank/Rank.js'
+import Rank from './comp/Rank/Rank.js';
 
 
 
@@ -33,11 +32,6 @@ const particlesOptions = {
       }
     }
 }
-
-
-// const initialState = {
-	
-// }
 
 class App extends Component {
 	constructor() {
@@ -67,12 +61,6 @@ class App extends Component {
 		    }
 		})
 	}
-
-	// componentDidMount() {
-	// 	fetch('http://localhost:3000')
-	// 	 .then(response => response.json())
-	// 	 .then(console.log)
-	// } don't need it cause we have cors
 
 	onInputChange = (event) => {
 		this.setState(
@@ -129,9 +117,6 @@ class App extends Component {
 	}
 
 	onRouteChange = (route) => {
-		// if (route === 'signin') {
-		// 	this.setState(initialState)
-		// }
 		this.setState({ route: route})
 	}
 
