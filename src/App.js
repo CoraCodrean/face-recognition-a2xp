@@ -11,7 +11,6 @@ import Register from './comp/Register/Register.js';
 import Rank from './comp/Rank/Rank.js';
 
 
-
 const particlesOptions = {
   particles: {
     number: {
@@ -42,13 +41,13 @@ class App extends Component {
 		box: { },
 		route: 'signin',
 		user: {
-		id: '',
-		name:'',
-		email: '',
-		entries: 0,
-		joined: ''
-	}
-		};
+			id: '',
+			name:'',
+			email: '',
+			entries: 0,
+			joined: ''
+		}
+	};
 	}
 
 	loadUser = (data) => {
