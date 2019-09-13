@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background:
-	linear-gradient(to right, rgb(192, 192, 192), rgb(54, 130, 143));
+	linear-gradient(to right, rgb(255, 179, 250), rgb(5, 9, 133));
 }
 
 code {
@@ -16,5 +16,5 @@ code {
 
 .backg {
 	background: 
-	 linear-gradient(to right, rgb(192, 192, 192), rgb(54, 130, 143));
+	linear-gradient(to right, rgb(255, 179, 250), rgb(5, 9, 133));
 }
